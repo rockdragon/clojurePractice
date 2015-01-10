@@ -10,4 +10,4 @@
       (< aliquot-sum num) :deficient)))
 
 
-(println (classify 10))
+(println (classify 6))
