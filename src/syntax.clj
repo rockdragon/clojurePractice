@@ -3,3 +3,4 @@
 
 (def words ["the" "quick" "brown" "fox" "jumped" "over" "the" "lazy" "dog"])
 (println (filter #(zero? (rem (count %) 3)) words))
+(println (map #(str % " appended text.") words))
