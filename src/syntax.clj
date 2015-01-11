@@ -6,3 +6,9 @@
 (println (map #(str % " appended text.") words))
 
 (println (flatten [["w" "oo" "!"] ["brilliant" "."]]))
+
+(println (reduce + (range 1 11)))
+
+;library ref: r/fold
+(require '[clojure.core.reducers :as r])
+(println (r/fold str words))
